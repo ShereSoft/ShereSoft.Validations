@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/ShereSoft.Validations/.vs/ShereSoft.Validations
+/src/ShereSoft.Validations/ShereSoft.Validations/bin
+/src/ShereSoft.Validations/ShereSoft.Validations/obj
+/src/ShereSoft.Validations/ShereSoft.Validations.Tests/bin
+/src/ShereSoft.Validations/ShereSoft.Validations.Tests/obj
+/src/ShereSoft.Validations/ShereSoft.Validations/ShereSoft.Validations.csproj.user

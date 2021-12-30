@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net5.0;netcoreapp3.1;netcoreapp2.1;net45</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>VLDTNS</Authors>
+		<Description>Provides common validations extended from the standard ValidationAttribute. No library dependencies.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>Copyright © 2020-2021 Sheresoft</Copyright>
+		<PackageProjectUrl>https://github.com/ShereSoft/ShereSoft.Validations</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ShereSoft/ShereSoft.Validations</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>validation;validations;validationattribute;error message;System.ComponentModel.DataAnnotations;</PackageTags>
+		<PackageReleaseNotes>* Country code validator (custamizable)
+* Currency code validator (custamizable)
+* Element required validator for arrays and collections
+* Fixed length string validator
+* Past date only validator
+* Object extension method for manually running the validation attributes and IValidatableObject.Validate</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.ComponentModel.Annotations" Version="4.*" Condition="'$(TargetFramework)' == 'net45'" />
+    </ItemGroup>
+
+</Project>
